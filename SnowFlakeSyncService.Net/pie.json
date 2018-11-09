@@ -43,7 +43,7 @@
     },
     "datasetname": "vw_sales_orders_devtest",
     "geckoboadapikey": "d0ae5f6366c2b8938b163ed7c5070144",
-    "snowflakeconnection": "account=pm58521;user=NkosinathiS;password=Password123;host=pm58521.east-us-2.azure.snowflakecomputing.com",
+    "snowflakeconnection": "account=;user=NkosinathiS;password=*****;host=.east-us-2.azure.snowflakecomputing.com",
     "datastatement": "select * from VW_SALES_ORDERS_DEVTEST limit 100 offset 100",
     "pollinterval": 1
   },
@@ -92,7 +92,7 @@
     },
     "datasetname": "sales.copy_ones",
     "geckoboadapikey": "d0ae5f6366c2b8938b163ed7c5070144",
-    "snowflakeconnection": "account=pm58521;user=NkosinathiS;password=Password123;host=pm58521.east-us-2.azure.snowflakecomputing.com",
+    "snowflakeconnection": "account=;user=NkosinathiS;password=;host=.east-us-2.azure.snowflakecomputing.com",
     "datastatement": "select * from VW_SALES_ORDERS_DEVTEST limit 100 offset 100",
     "pollinterval": 1
   }
