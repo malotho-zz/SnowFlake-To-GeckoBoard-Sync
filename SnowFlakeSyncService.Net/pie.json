@@ -1,0 +1,99 @@
+﻿[
+  {
+    "fields": {
+      "orderid": {
+        "name": "OrderId",
+        "type": "number"
+
+      },
+      "orderdate": {
+        "name": "OrderDate",
+        "type": "datetime",
+        "defaultvalue": "now"
+      },
+      "userid": {
+        "name": "UserId",
+        "type": "number"
+      },
+      "brandid": {
+        "name": "BrandId",
+        "type": "number"
+      },
+      "campaignid": {
+        "name": "CampaignId",
+        "type": "number"
+      },
+      "dialeragentid": {
+        "name": "DialerAgentId",
+        "type": "number"
+      },
+      "comments": {
+        "name": "Comments",
+        "type": "string"
+      },
+      "backetreference": {
+        "name": "BacketReference",
+        "type": "string"
+      },
+      "billingdate": {
+        "name": "BillingDate",
+        "type": "datetime",
+        "defaultvalue": "now"
+      }
+    },
+    "datasetname": "vw_sales_orders_devtest",
+    "geckoboadapikey": "d0ae5f6366c2b8938b163ed7c5070144",
+    "snowflakeconnection": "account=pm58521;user=NkosinathiS;password=Password123;host=pm58521.east-us-2.azure.snowflakecomputing.com",
+    "datastatement": "select * from VW_SALES_ORDERS_DEVTEST limit 100 offset 100",
+    "pollinterval": 1
+  },
+
+  {
+    "fields": {
+      "orderid": {
+        "name": "OrderId",
+        "type": "number"
+
+      },
+      "orderdate": {
+        "name": "OrderDate",
+        "type": "datetime",
+        "defaultvalue": "now"
+      },
+      "userid": {
+        "name": "UserId",
+        "type": "number"
+      },
+      "brandid": {
+        "name": "BrandId",
+        "type": "number"
+      },
+      "campaignid": {
+        "name": "CampaignId",
+        "type": "number"
+      },
+      "dialeragentid": {
+        "name": "DialerAgentId",
+        "type": "number"
+      },
+      "comments": {
+        "name": "Comments",
+        "type": "string"
+      },
+      "backetreference": {
+        "name": "BacketReference",
+        "type": "string"
+      },
+      "billingdate": {
+        "name": "BillingDate",
+        "type": "datetime",
+        "defaultvalue": "now"
+      }
+    },
+    "datasetname": "sales.copy_ones",
+    "geckoboadapikey": "d0ae5f6366c2b8938b163ed7c5070144",
+    "snowflakeconnection": "account=pm58521;user=NkosinathiS;password=Password123;host=pm58521.east-us-2.azure.snowflakecomputing.com",
+    "datastatement": "select * from VW_SALES_ORDERS_DEVTEST limit 100 offset 100",
+    "pollinterval": 1
+  }
+]
